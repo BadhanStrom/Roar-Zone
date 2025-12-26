@@ -103,7 +103,7 @@ async def main():
         print(
             f"\nScraping complete. Found {len(valid_channels)} valid streams out of {total_channels}."
         )
-        filename = "playlist.m3u"
+        filename = "index.html"
         print(f"Generating M3U playlist: {filename}")
         with open(filename, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
